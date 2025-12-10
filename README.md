@@ -10,3 +10,9 @@ This repository preserves:
 - License: BSD-2-Clause
 
 This allows the program to be restored and used on any Mac in the future, even though the upstream project and Homebrew formula are gone.
+
+### Install via Release
+```bash
+curl -LO https://github.com/aatrey56/globe_1994/releases/download/v0.0.20140814/globe
+chmod +x globe
+sudo cp globe /usr/local/bin/globe
